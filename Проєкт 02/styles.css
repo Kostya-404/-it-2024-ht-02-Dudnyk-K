@@ -1,0 +1,144 @@
+body {
+    font-family: Inter, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    background: #FAFAFA url('background image.png') no-repeat top right;
+    margin: 100px auto;
+    padding: 71px;
+    max-width: 680px;
+    border-radius: 40px;
+    position: relative; 
+    background-size: 400px auto;
+    background-position: top 50px right;
+}
+
+.header {
+    text-align: left; 
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.logo {
+   
+    height: auto; 
+    display: block; 
+    margin-bottom: 10px; 
+}
+
+.text-content {
+    max-width: 500px; 
+}
+
+.header h1 {
+    font-size: 48px;
+    color: black;
+    line-height: 50px;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header p {
+    color: #515759;
+    margin: 0;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.cta-button-header {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #1890FF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.cta-button {
+    display: block;
+    width: 440px;
+    margin: 40px auto 20px auto; 
+    padding: 15px 20px;
+    background-color: #1890FF;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.divider {
+    border-bottom: 1px solid #eee;
+    margin: 59px 0; 
+    margin-top: 75px;
+}
+
+.divider_2 {
+    border-bottom: 1px solid #eee;
+    margin: 59px 0; 
+    margin-top: 61px;
+}
+
+.features {
+    margin: 20px 0;
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.feature img {
+    margin-right: 20px;
+}
+
+.feature h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.feature p {
+    margin: 5px 0 0 0;
+    color: #777;
+}
+
+.icon-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #B1BCC0;
+}
+
+.footer a {
+    color: #B1BCC0;
+    text-decoration: underline;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 10px;
+    margin-top: 35px;
+}
+
+.social-icons img {
+    max-width: 30px;
+    margin: 0 32px;
+}
